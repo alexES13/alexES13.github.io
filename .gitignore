@@ -1,0 +1,89 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Default ignored files
+/shelf/
+/workspace.xml
+# Editor-based HTTP Client requests
+/httpRequests/
+# Datasource local storage ignored files
+/dataSources/
+/dataSources.local.xml
+
+# Node.js dependencies (si usas Node.js en el proyecto)
+node_modules/
+
+# Composer dependencies
+/vendor/
+
+# Directorios de caché de Symfony o Laravel
+/var/
+/cache/
+/logs/
+
+# Configuración de entorno
+.env
+.env.local
+.env.*.local
+
+# Archivos específicos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Archivos específicos de PHPStorm
+.idea/
+*.iml
+
+# Archivos de depuración o temporales
+*.log
+*.cache
+*.tmp
+*.bak
+*.swp
+
+# Archivos de paquetes y compilación
+/public/build/
+/public/assets/
+/public/bundles/
+
+# Documentación generada automáticamente
+/doc/api/
+
+# PHPUnit
+.phpunit.result.cache
+/tests/_output/
+tests/_support/_generated/
+
+# Archivos de subida temporal
+/uploads/tmp/
+
+# Otros entornos de desarrollo o compilación
+.vscode/
+*.sublime-workspace
+*.sublime-project
+
+# Composer.lock si no quieres compartirlo (opcional)
+composer.lock
+
+# Ignorar binarios generados
+/bin/
+/build/
